@@ -11,5 +11,8 @@ ethabi = { version = "18.0", default-features = false }
 risc0-zkp = { workspace = true }
 risc0-zkvm = { workspace = true }
 
+[dependencies]
+merkletree = "0.22.1"
+
 [package.metadata.risc0]
 methods = ["guest"]
